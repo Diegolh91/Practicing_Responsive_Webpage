@@ -1,0 +1,51 @@
+#homediv{
+  background-image: url(../images/Wedding.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 630px;
+  z-index: 5;
+  overflow: hidden;
+}
+
+#welcomediv{
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+
+#welcomediv h1, #welcomediv h2, #welcomediv h3 {
+  color: gray;
+  font-weight: 400;
+  padding: 0;
+}
+
+#welcomediv h1{
+  font-size: 45px;
+}
+#welcomediv h2{
+  font-size: 30px;
+  margin-left: 30px;
+}
+#welcomediv h3{
+  font-size: 20px;
+  margin-left: 60px;
+}
+
+.homedivh1{
+  color: gray;
+  position: absolute;
+  left: 70%;
+  top: 35%;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 700px) {
+  .homedivh1{
+    display: none;
+  }
+  #welcomediv h1, #welcomediv h2, #welcomediv h3{
+    display: none;
+  }
+}

@@ -1,0 +1,46 @@
+#contactdiv{
+  background-color: #FFB22B;
+  height: 300px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease-in-out;
+  overflow-x: hidden;
+}
+
+#contactdiv:hover{
+  background-color: #FFA200;
+}
+
+#contactdiv h1{
+  position: relative;
+  color: white;
+  left: 70px;
+  border: solid 10px white;
+  padding: 25px 70px;
+  animation: move 2s infinite forwards;
+  box-sizing: border-box;
+}
+@keyframes move{
+  0% { transform: translateY(0px);}
+  50% { transform: translateY(10px);}
+  100% { transform: translateY(0px);}
+}
+
+#contactdiv a{
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+  #contactdiv h1{
+    font-size: 15px;
+    border: solid 4px white;
+    padding: 10px 25px;
+  }
+}
