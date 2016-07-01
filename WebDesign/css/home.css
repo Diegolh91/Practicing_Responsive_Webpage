@@ -3,7 +3,9 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 630px;
+  background-position: center;
+  //height: 630px;
+  height:29%;
   z-index: 5;
   overflow: hidden;
 }
@@ -11,11 +13,11 @@
 #welcomediv{
   position: relative;
   top: 30px;
-  left: 100px;
+  margin-left: 10%;
 }
 
 #welcomediv h1, #welcomediv h2, #welcomediv h3 {
-  color: gray;
+  color: rgba(0,0,0,.65);
   font-weight: 400;
   padding: 0;
 }
@@ -33,7 +35,7 @@
 }
 
 .homedivh1{
-  color: gray;
+  color: rgba(0,0,0,.65);
   position: absolute;
   left: 70%;
   top: 35%;
@@ -41,11 +43,35 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 700px) {
-  .homedivh1{
-    display: none;
+@media screen and (max-width: 750px) {
+  #welcomediv{
+    position: relative;
+    top: 0px;
   }
-  #welcomediv h1, #welcomediv h2, #welcomediv h3{
-    display: none;
+  #homediv{
+    //background-attachment:scroll;
+  }
+  .homedivh1{
+    font-size: 20px;
+    left: 80%;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  #welcomediv h1{
+    font-size: 25px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  #welcomediv h2{
+    font-size: 15px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  #welcomediv h3{
+    font-size: 10px;
+    margin-left: 20px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  #welcomediv{
+    left: 15px;
   }
 }

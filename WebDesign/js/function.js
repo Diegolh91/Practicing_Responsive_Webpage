@@ -32,7 +32,9 @@ $(document).ready(function(){
   $(window).scroll(function(){
     var wScroll = $(this).scrollTop();
 
-
+    $("#collageid").css({
+      "-webkit-transform":"translate(0px,-"+ wScroll/15 +"%)"
+    });
 
     if(wScroll > $("#aboutdiv").offset().top){
       $(".welcomedivh1").css({

@@ -1,4 +1,5 @@
 #youtubediv{
-  background-color: lightgray;
+  background-color: red;
   z-index: 8;
+  height: 500px;
 }

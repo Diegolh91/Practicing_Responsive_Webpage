@@ -18,11 +18,27 @@ html, body{
   display: flex;
   flex-direction: row;
   font-family: 'Lucida Console', Monospace;
+  width: 100%;
 }
 
 #div-content{
   margin-left: 140px;
+  //margin-left: 11%;
+  //width: 89%;
   margin-right: 0px;
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (max-width: 750px) {
+  #main-div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #div-content{
+    width: 100%;
+    margin-left: 0;
+  }
+
 }

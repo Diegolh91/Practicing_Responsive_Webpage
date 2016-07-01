@@ -1,7 +1,8 @@
 #contactdiv{
   background-color: #FFB22B;
   height: 300px;
-  width: 100%;
+  left: 140px;
+  //width: 1140px;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -20,7 +21,8 @@
 #contactdiv h1{
   position: relative;
   color: white;
-  left: 70px;
+  text-align: center;
+  //left: 70px;
   border: solid 10px white;
   padding: 25px 70px;
   animation: move 2s infinite forwards;
@@ -41,6 +43,14 @@
   #contactdiv h1{
     font-size: 15px;
     border: solid 4px white;
-    padding: 10px 25px;
+    padding: 10px 15px;
+  }
+  #contactdiv{
+    height: 150px;
+    width: 100%;
+    left: 0;
+  }
+  #socialdiv{
+    margin-bottom: 150px;
   }
 }
