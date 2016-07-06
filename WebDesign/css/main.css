@@ -28,6 +28,8 @@ html, body{
   margin-right: 0px;
   display: flex;
   flex-direction: column;
+  background-color: #FFB22B;
+
 }
 
 @media screen and (max-width: 750px) {
