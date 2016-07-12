@@ -146,5 +146,6 @@
   }
   #buttonheader{
     display: flex;
+    cursor: pointer;
   }
 }
